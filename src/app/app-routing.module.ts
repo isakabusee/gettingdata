@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+// import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -10,7 +10,7 @@ const routes: Routes = [];
   exports: [RouterModule]
 })
 export class AppRoutingModule {
-  constructor(http: HttpClient){
+  constructor(){
 
   }
  }

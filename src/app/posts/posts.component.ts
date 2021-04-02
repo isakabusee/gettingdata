@@ -1,5 +1,7 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+// import { HttpClient } from '@angular/common/http';
+// import { JSONPlaceholderService } from './../services/jsonplaceholder.service';
+// import {JSONPlaceholderService} from './services/jsonplaceholder.service'
 
 @Component({
   selector: 'app-posts',
@@ -8,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-  constructor(http: HttpClient) { }
+  // constructor(private JSONPlaceholder:JSONPlaceholderService) { }
 
   ngOnInit() {
   }
